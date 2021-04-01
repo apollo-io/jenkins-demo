@@ -15,7 +15,7 @@ pipeline {
 
     stage('Staging') {
       steps {
-        sh 'Check dependency versions on SIT, deploy to SIT, run acceptance tests on SIT'
+        echo 'Check dependency versions on SIT, deploy to SIT, run acceptance tests on SIT'
       }
     }
 
